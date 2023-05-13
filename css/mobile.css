@@ -1,0 +1,44 @@
+/* Navigation */
+#main-nav .social{
+   display:none;
+}
+#main-nav .container{
+    grid-template-columns: 1fr;
+    grid-gap:1.5rem;
+    
+}
+
+#main-nav ul,
+#main-nav .logo{
+  justify-self: center;
+  display:flex; 
+}
+
+#main-nav ul li a{
+    padding:0.5rem;
+}
+
+#home-articles .articles-container,
+#home-articles .articles-container > *:last-child,
+#home-articles .articles-container > *:first-child
+{
+    grid-template-columns:1fr;
+    grid-column: 1;
+}
+
+#main-footer .footer-container{
+    grid-template-columns: 1fr;
+
+}
+#main-footer .footer-container > *:last-child{
+    grid-column: 1 ;
+
+}
+
+.page-container{
+    grid-template-columns: 1fr;
+    margin:0.3rem;
+}
+.page-container > *:first-child{
+    grid-row: 1 ;
+}
